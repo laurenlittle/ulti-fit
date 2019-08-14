@@ -2,8 +2,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// I think these routes are going to be fucked up
-
 class Navbar extends Component {
 
   render() {

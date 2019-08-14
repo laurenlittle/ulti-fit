@@ -34,7 +34,7 @@ export default class CreateExercise extends Component {
           });
         }
       })
-      .catch((error) => {
+      .catch(error => {
         console.log(error);
       })
   }
@@ -79,7 +79,6 @@ export default class CreateExercise extends Component {
       .then(res => console.log(res.data));
 
     window.location = '/';
-    // add post route to /exercises/add
   }
 
   render() {

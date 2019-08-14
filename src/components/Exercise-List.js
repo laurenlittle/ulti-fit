@@ -46,7 +46,7 @@ export default class ExercisesList extends Component {
 
   deleteExercise(id) {
 
-     axios.delete('http:localhost:5000/exercises/'+id)
+     axios.delete('http://localhost:5000/exercises/'+id)
        .then(response => {
          //  @TODO Add to UI to inform user that exercise was deleted successfully
         console.log(response.data)
